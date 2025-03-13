@@ -107,7 +107,6 @@ class HashMap {
 
     if (this.size / this.capacity > this.loadFactor) {
       this.resize();
-      //   console.log("resize");
     }
   }
 
@@ -182,7 +181,6 @@ class HashMap {
 
   //   keys() returns an array containing all the keys inside the hash map.
   keys() {
-    // console.log(this.buckets);
     let res = [];
     for (let i = 0; i < this.capacity; i++) {
       if (this.buckets[i] && this.buckets[i].head) {
