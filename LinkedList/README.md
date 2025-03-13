@@ -2,11 +2,9 @@
 
 ## Features
 
-#### LinkedList class / factory, which will represent the full list.
+#### LinkedList class
 
-#### Node class / factory, containing a value property and a nextNode property, set both as null by default.
-
-Build the following functions in your linked list class / factory:
+#### Node class
 
 - `append(value)` adds a new node containing value to the end of the list
 - `prepend(value)` adds a new node containing value to the start of the list
